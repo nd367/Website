@@ -9,7 +9,7 @@ header {
    border-top: antiquewhite solid;
    display: block;
    text-align: center;
-   padding-left: 35%;
+   padding-left: 20%;
    padding-top: 0;
    text-decoration: none;
    width: 160px;
@@ -25,12 +25,6 @@ header input[type=text] {
    font-size: 17px;
    width: 300px;
 }
-header input[placeholder=Search...]
-{
-   text-align: left;
-   font-size: 17px;
-}
-
 header img {
    float: left;
    padding-left: 20px;
@@ -44,7 +38,7 @@ header img {
 
 .nav-item {
    color: #150947;
-   padding: 0 90px;
+   padding: 0 30px;
 
 }
 .nav-link{
