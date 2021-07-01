@@ -1,0 +1,65 @@
+header {
+   background-color:#150947;
+   padding-top: 10px;
+   padding-left: 20px;
+
+}
+.navbar {
+
+   border-top: antiquewhite solid;
+   display: block;
+   text-align: center;
+   padding-left: 35%;
+   padding-top: 0;
+   text-decoration: none;
+   width: 160px;
+   background-color: #FCCBBD;
+   font-weight: bold;
+}
+header input[type=text] {
+   float: bottom;
+   padding-left: 50%;
+   padding-top: 10px;
+   text-align: left;
+   border: none;
+   font-size: 17px;
+   width: 300px;
+}
+header input[placeholder=Search...]
+{
+   text-align: left;
+   font-size: 17px;
+}
+
+header img {
+   float: left;
+   padding-left: 20px;
+   width: 250px
+}
+.navbar-nav {
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+.nav-item {
+   color: #150947;
+   padding: 0 90px;
+
+}
+.nav-link{
+   color:  #150947;
+   padding: 0 90px;
+   width: 160px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: aliceblue;
+color: white;
+text-align: center;
+padding: 10px;
+font-size: 0.5rem;
+}
