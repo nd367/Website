@@ -18,9 +18,9 @@ header {
 }
 header input[type=text] {
    float: bottom;
-   padding-left: 50%;
+   padding-left: 100px;
    padding-top: 10px;
-   text-align: left;
+   text-align: center;
    border: none;
    font-size: 17px;
    width: 300px;
