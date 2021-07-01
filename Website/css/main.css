@@ -18,12 +18,12 @@ header {
 }
 header input[type=text] {
    float: bottom;
-   padding-left: 100px;
+   padding-left: 0px;
    padding-top: 10px;
    text-align: left;
    border: none;
    font-size: 17px;
-   width: 300px;
+   width: 400px;
 }
 header img {
    float: center;
@@ -44,7 +44,7 @@ header img {
 }
 .nav-link{
    color:  #150947;
-   padding: 0 100px;
+   padding-left: 100px;
    width: 160px;
 }
 .footer {
