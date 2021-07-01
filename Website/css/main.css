@@ -23,7 +23,7 @@ header input[type=text] {
    text-align: left;
    border: none;
    font-size: 17px;
-   width: 400px;
+   width: 50%;
 }
 header img {
    float: center;
