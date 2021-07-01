@@ -9,7 +9,7 @@ header {
    border-top: antiquewhite solid;
    display: block;
    text-align: center;
-   padding-left: 20%;
+   padding-left: 10px;
    padding-top: 0;
    text-decoration: none;
    width: 160px;
@@ -38,7 +38,7 @@ header img {
 
 .nav-item {
    color: #150947;
-   padding: 0 30px;
+   padding: 0 0px;
 
 }
 .nav-link{
