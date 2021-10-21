@@ -1,3 +1,4 @@
+/* Nav bar */
 header {
     background-color:#150947;
     padding-top: 10px;
@@ -26,37 +27,75 @@ header input[type=text] {
     font-size: 17px;
     width: 50%;
 }
-body img {
-    float: left;
-    padding-left: 20px;
-    width: 50px
-    height: 50px
+header img {
+    float: center;
+    padding-left: 0px;
+    image-resolution: normal;
+    image-rendering: high-quality;
+
 }
 .navbar-nav {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 300px;
+    padding-left: 200px;
 
 }
 
 .nav-item {
     color: #150947;
-    padding: 0 100px;
+    padding: 0 90px;
 
 }
 .nav-link{
     color:  #150947;
-    padding-left: 100px;
+    padding-left: 90px;
     width: 160px;
 }
+/* Contact Form */
+body {
+    background-image: url('../images/allpink.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p img {
+ border: #FCCBBD solid;
+}
+h1 {
+    color: black;
+    text-align: center;
+
+}
+p {
+    text-align: center;
+}
+body {
+    padding-bottom: 50px
+}
+.form-group {
+    padding-top: 10px;
+}
+.form-group input {
+    width: 800px;
+}
+input[type=checkbox] {
+    width: 10px;
+    float: right;
+}
+.container {
+    width: 45%;
+    padding-top: 10px;
+}
+/* Footer */
 .footer {
     position: fixed;
+    font-size: 15px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: aliceblue;
     color: white;
     text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
-
+    padding-bottom: 10px;
+    padding-left: 20%;

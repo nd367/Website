@@ -1,93 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Website Project</title>
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Project</title>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 <header>
 
-    <a class="navbar-brand" href="index.html"><img src="images/final_logo.png"" alt="logo" height="120" width="170"></a>
+  <a class="navbar-brand" href="index.html"><img src="images/final_logo.png" alt="logo" height="130" width="170"></a>
 
-        <input type="text" placeholder="Search...">
+  <input type="text" placeholder="Search...">
 
 </header>
-<div class="container-fluid">
-    <div class="row">
-        <nav class="navbar navbar navbar-expand-md
-                    justify-content-start
 
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar navbar-expand-md
+                    justify-content-start
+                    navbar-light
                     col-12">
 
-            <!-- Brand -->
-            <!-- Responsive Button for the smaller menu -->
-            <button class="navbar-toggler" type="button"
-                    data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <!-- Links -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                           data-toggle="dropdown">
-                            Cupcakes
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Menu</a>
-                            <a class="dropdown-item" href="#">Build Your Own</a>
+      <!-- Brand -->
+      <!-- Responsive Button for the smaller menu -->
+      <button class="navbar-toggler" type="button"
+              data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link col-3 " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col-3" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col-3" href="css/contact.css">Contact</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-3" href="#" id="navbardrop"
+               data-toggle="dropdown">
+              Cupcakes
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Menu</a>
+              <a class="dropdown-item" href="#">Build Your Own</a>
 
-                        </div>
-                    </li>
-                </ul>
             </div>
-        </nav>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="jumbotron bg-image col-sm-12 "
+       style=" background-image: url('images/children.jpg');
+         height: 500px;
+         background-repeat: no-repeat;
+         background-size: cover; "
+</div>
 
+</div>
+<h2> Welcome to Natasha's Cupcakes </h2>
+<h3> Discover Our Bestselling Flavors!</h3>
+<div class="row">
+
+  <div class="card col-sm-4" style="width: 18rem;">
+    <img class="card-img-top" src="images/many_cupcakes.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">View Our Menu</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat lacus non enim fermentum, iaculis dignissim risus fringilla. Fusce non ullamcorper orci, vitae posuere sem. Nullam a turpis consectetur, fringilla turpis eget, sollicitudin augue. Aenean ultrices, tortor vitae tristique suscipit, est arcu ultrices mauris, quis porttitor risus ante ac turpis.  </p>
+      <a href="#" class="btn btn-primary">Menu</a>
     </div>
+  </div>
+  <div class="card col-sm-4" style="width: 18rem;">
+    <img class="card-img-top" src="images/cupcake_making2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Create Your Own Design</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat lacus non enim fermentum, iaculis dignissim risus fringilla. Fusce non ullamcorper orci, vitae posuere sem. Nullam a turpis consectetur, fringilla turpis eget, sollicitudin augue. Aenean ultrices, tortor vitae tristique suscipit, est arcu ultrices mauris, quis porttitor risus ante ac turpis.  </p>
+      <a href="#" class="btn btn-primary">Create</a>
+    </div>
+  </div>
+  <div class="card col-sm-4" style="width: 18rem;">
+    <img class="card-img-top" src="images/picking_cupcake.webp" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Learn About Our Company</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat lacus non enim fermentum, iaculis dignissim risus fringilla. Fusce non ullamcorper orci, vitae posuere sem. Nullam a turpis consectetur, fringilla turpis eget, sollicitudin augue. Aenean ultrices, tortor vitae tristique suscipit, est arcu ultrices mauris, quis porttitor risus ante ac turpis.  </p>
+      <a href="#" class="btn btn-primary">About</a>
+    </div>
+  </div>
+</div>
 
+
+<footer class="footer page-footer font-small ">
+  <div class="container">
     <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-
-        <div class="col-sm-4  text-center">
-            <h2>h2 Bootstrap heading (24px)</h2>
-            <h3>h2 Bootstrap heading (18px)</h3>
-        </div>
+      <span class="text-muted">&copy; Natasha Das, 2021 |  Terms Of Use  |  Privacy Statement</span>
     </div>
-
-
-    <footer class="footer page-footer font-small ">
-        <div class="container">
-            <div class="row">
-                <span class="text-muted">&copy; Natasha Das, 2021 |  Terms Of Use  |  Privacy Statement</span>
-            </div>
-        </div>
-    </footer>
+  </div>
+</footer>
 </div>
 
 

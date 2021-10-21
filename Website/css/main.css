@@ -34,19 +34,25 @@ header img {
 .navbar-nav {
    padding-top: 5px;
    padding-bottom: 5px;
-   padding-left: 300px;
+   padding-left: 200px;
 
 }
 
 .nav-item {
    color: #150947;
-   padding: 0 100px;
+   padding: 0 90px;
 
 }
 .nav-link{
    color:  #150947;
-   padding-left: 350px;
+   padding-left: 90px;
    width: 160px;
+}
+.p-5 .text-center .bg-image .col-12 {
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
 }
 .footer {
 position: fixed;
